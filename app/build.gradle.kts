@@ -81,10 +81,8 @@ dependencies {
     implementation(libs.gson)
     implementation(libs.okhttp3.logging.interceptor)
     implementation(libs.coil)
-    implementation(libs.lottie)
     implementation(libs.lifecycle.runtime.compose)
     testImplementation(libs.mockk)
-    testImplementation(libs.turbine)
     testImplementation(libs.androidx.core.testing)
     testImplementation(libs.kotlinx.coroutines.test)
 }
